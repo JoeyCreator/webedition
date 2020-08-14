@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Canada COVID-19 Tracker</h1>
+    <h1>Canada COVID-19 Health</h1>
     <h4 class="text-xs">
       Source:
       <a
