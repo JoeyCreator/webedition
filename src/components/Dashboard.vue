@@ -7,7 +7,7 @@
         class="border-b border-dotted text-blue-600 border-blue-600 hover:text-blue-800 hover:border-blue-800"
         target="_blank"
         href="https://www.canada.ca/fr/sante-canada.html"
-      >Canada Deptartment of Health</a> &middot; Last updated 8/14/2020 14:40 p.m.
+      >Canada Deptartment of Health</a> &middot; Last updated 8/14/2020 17:35 p.m.
     </h4>
     <div class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
