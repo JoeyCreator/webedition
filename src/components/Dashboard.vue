@@ -12,7 +12,7 @@
     <div class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
       <strong>Attention!</strong>
-      For the most up to date information regarding COVID-19 in Pennsylvania, please consult Pennsylvania Deptartment of Health. This site should not be used for life saving information - instead, rather, a source for numbers and statistics.
+      For the most up to date information regarding COVID-19 in Canada, please consult Canada Deptartment of Health. This site should not be used for life saving information - instead, rather, a source for numbers and statistics.
     </div>
     <br>
     <iframe
