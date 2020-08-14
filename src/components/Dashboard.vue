@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div>
     <h1>Canada COVID-19 Tracker</h1>
     <h4 class="text-xs">
       Source:
@@ -12,8 +12,7 @@
     <div class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
       <strong>Attention!</strong>
-
-       For the most up to date information regarding COVID-19 in Pennsylvania, please consult Pennsylvania Deptartment of Health. This site should not be used for life saving information - instead, rather, a source for numbers and statistics.
+      For the most up to date information regarding COVID-19 in Pennsylvania, please consult Pennsylvania Deptartment of Health. This site should not be used for life saving information - instead, rather, a source for numbers and statistics.
     </div>
     <br>
     <iframe
@@ -23,8 +22,12 @@
     ></iframe>
     <hr style="width:100%;text-align:left;margin-left:0">
     <div class="pb-4">
-      <h4 class="text-xs">Developed by Joey Cadieux &middot;
-        <a class="text-blue-600" href="mailto:joeycadieux161@gmail.com">Contact Me</a> &middot;
+      <h4 class="text-xs">
+        Developed by Joey Cadieux &middot;
+        <a
+          class="text-blue-600"
+          href="mailto:joeycadieux161@gmail.com"
+        >Contact Me</a> &middot;
         <a class="text-blue-600" href="https://forms.gle/Z3mfTuL72Tt4HrKm7">Found an issue?</a>
       </h4>
     </div>
