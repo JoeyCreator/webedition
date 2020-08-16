@@ -1,5 +1,5 @@
 {
-  "name": "covid-19health",
+  "name": "dash-covid",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "3.4.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "4.1.1",

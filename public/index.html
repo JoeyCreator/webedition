@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title>CA COVID-19 HEALTH</title>
   </head>
   <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD3tZULVGjYXImhe1BFBiknyPd7DRoNdBg",
+        authDomain: "dash-covid.firebaseapp.com",
+        databaseURL: "https://dash-covid.firebaseio.com",
+        projectId: "dash-covid",
+        storageBucket: "dash-covid.appspot.com",
+        messagingSenderId: "88147149971",
+        appId: "1:88147149971:web:d584a3780afe5cc7a5f966",
+        measurementId: "G-78366FE9G5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
     <noscript>
-      <strong>We're sorry but ca covid-19 health doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but ca covid-19 health doesn't work properly without
+        JavaScript enabled. Please enable it to continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
